@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="w-full h-screen bg-black flex flex-col gap-6 justify-center items-center">
       <h1 className="text-3xl font-extrabold text-center text-white">
-        Password Generator
+        PASSWORD GENERATOR
       </h1>
 
       <div className="w-[600px] bg-cyan-200 min-h-[300px] rounded-2xl p-4 shadow-xl shadow-gray-500/50 flex justify-center items-center flex-col gap-6">
@@ -98,7 +98,7 @@ function App() {
         </div>
 
         <button
-          onClick={passwordGenerator}
+          onClick={passwordGenerator}/*  */
           className="mt-2  bg-cyan-800 text-white px-6 py-2 rounded-md hover:bg-cyan-700 transition"
         >
           Generate Password
